@@ -100,7 +100,7 @@ font-family: 'Ubuntu', sans-serif; */
 }
 
 .search_result:hover img {
-    /* opacity: 0.8; */
+    opacity: 0.8;
 }
 
 .search_result a {
@@ -135,121 +135,6 @@ font-family: 'Ubuntu', sans-serif; */
 ::placeholder {
     font-weight: bold;
 }
-footer{
-    display: none;
-}
-@media screen and (min-width: 1330px) {
-    
-
-.flex-all-center{
-    display: flex;
-    overflow: hidden;
-}
-footer {
-    height: 100px;
-    background-color: brown;
-    color: white;
-    cursor: default;
-}
-.red{
-    right: 413px;
-  position: relative;
-  top: 61px;
-    height: 39px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  width: 1000px;
-  text-align: center;
-  border-right: 10px solid black;
-  border-top-right-radius: 31px;
-  border-top: 4px solid black;
-  border-left: 10px solid black;
-  border-top-left-radius: 31px;
-  font-family: 'Geologica', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Roboto', sans-serif;
-}
-
-.image{
-    display: flex;
-  justify-content: flex-start;
-  height: 100px;
-  width: 580px;
-}
-.j p{
-       left: 58px;
-    position: relative;
-    top: -5px; 
-}
-.k{
-    text-align: center;
-  height: 50px;
-  width: 280px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: 10px solid black;
-  border-bottom: 5px solid black;
-  border-left: 10px solid black;
-  border-bottom-left-radius: 38px;
-  border-bottom-right-radius: 38px;
-}
-.k p{
-    font-size: 22px;
-}
-.p{
-position: relative;
-right: 470px;
-}
- 
-.p img{
-    position: relative;
-    top: 7px;
-    height: 25px;
-    right: 4px;
-}
-.p p{
-    font-family: 'Geologica', sans-serif;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  position: relative;
-}
-.v img{
-    height: 38px;
-    position: relative;
-    top: 14px;
-    right: -12px;
-}
-.v p{
-    position: relative;
-    right: 10px;
-    bottom: 27px;
-}
-.s{
-    position: absolute;
-  left: 75%;
-  font-size: 29px;
-  width: 287px;
-  display: flex;
-  justify-content: center;
-  border-bottom: 5px solid black;
-  border-left: 10px solid black;
-  border-right: 10px solid black;
-  border-bottom-left-radius: 38px;
-  border-bottom-right-radius: 38px;
-}
-.l{
-    display: flex;
-    margin-top: 58px;
-    margin-right: -245px;
-    position: relative;
-    right: 22.5%;
-}
-.l img{
-    height: 39px;
-    padding: 0 8px;
-}}
 @media screen and (max-width: 1240px) {
     #show_btn{
         margin: 66px auto 18px;
